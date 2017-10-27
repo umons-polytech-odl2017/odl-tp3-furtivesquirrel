@@ -11,6 +11,7 @@ public class Form {
 	private JRadioButton ellipsisRadioButton;
 	private JRadioButton circleRadioButton;
 	private JTextArea textArea1;
+	private JPanel drawingPanel;
 
 	public Form() {
 
@@ -46,6 +47,11 @@ public class Form {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.pack();
 		frame.setVisible(true);
+	}
+
+	private void createUIComponents() {
+		// TODO: place custom component creation code here
+		drawingPanel = new JPanel();
 	}
 }
 
